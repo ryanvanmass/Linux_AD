@@ -4,7 +4,7 @@ sudo apt install realmd sssd sssd-tools libnss-sss libpam-sss adcli samba-common
 
 # Fix DNS to recognize Active Directory controlled DNS
 sudo rm -f /etc/resolv.conf
-sudo ln -s /run/systemd/resolv/resolv.conf /etc/resolv.conf
+sudo ln -s /run/systemd/resolve/resolv.conf /etc/resolv.conf
 
 # Join Server to Domain
 sudo realm join -U ryan rdvm.local
