@@ -1,4 +1,5 @@
 #!/bin/bash
+# Link to Guide: https://techcommunity.microsoft.com/discussions/windowsserverinsiders/problems-to-join-debianubuntu-machines-to-a-domain/4158051/replies/4277301
 # Install Dependancies
 sudo apt install sssd-ad sssd-tools realmd adcli krb5-user samba-common-bin adsys oddjob oddjob-mkhomedir ca-certificates -y
 
