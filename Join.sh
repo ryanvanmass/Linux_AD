@@ -4,7 +4,8 @@
 sudo apt install sssd-ad sssd-tools realmd adcli krb5-user samba-common-bin adsys oddjob oddjob-mkhomedir ca-certificates -y
 
 
-
+sudo hostnamectl set-hostname changeme.rdvm.local
+sudo timedatectl set-timezone America/Toronto
 
 # Join Server to Domain
 sudo realm join --membership-software=samba -U ryan rdvm.local
