@@ -1,6 +1,7 @@
 #!/bin/bash
 # Install Dependancies
-sudo apt install realmd sssd sssd-tools libnss-sss libpam-sss adcli samba-common-bin oddjob oddjob-mkhomedir packagekit -y
+sudo apt install sssd-ad sssd-tools realmd adcli krb5-user samba-common-bin adsys oddjob oddjob-mkhomedir ca-certificates -y
+
 
 
 
